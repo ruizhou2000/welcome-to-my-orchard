@@ -1,0 +1,188 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+/*body,
+html {
+	min-width: 1200px;
+	width: 100%;
+}*/
+
+ a{
+	text-decoration: none;
+	color: #000;
+	cursor: pointer;
+}
+
+ul {
+	list-style: none;
+}
+/*body {
+	background-color: #fff;
+	background-position: center top;
+	background-repeat: no-repeat;
+	font: 14px/1.5 "Microsoft YaHei", Tahoma, "simsun", sans-serif;
+	color: #323235;
+}*/
+
+/*1.头部导航end*/
+
+.container {
+	width: 1220px;
+	margin: 0 auto;
+	position: relative;
+	z-index: 2;
+}
+
+.container .clearfix {}
+
+i {
+	font-style: normal;
+}
+
+/*3.背景2end*/
+
+/*4.玩法资料菜单及下面的盒子内容*/
+.lbox {
+	width: 810px;
+	height: 810px;
+	text-align:center;
+}
+.lbox img {
+	
+}
+#innertop {
+	
+	width: 810px;
+	height: 720px;
+	margin: auto;
+	background-color: #FFFFFF;
+	background-repeat: no-repeat;
+/*	border: 1px red solid;*/
+	overflow: hidden;
+}
+
+.itleft,
+.itleft .divimg,
+.itleft .ulimg {
+	height: 720px;
+}
+
+.itleft {
+	/*border: 1px solid green;*/
+	width: 1200px;
+	float: left;
+}
+
+.itleft .divimg {
+	width: 1200px;
+	overflow: hidden;
+	position: relative;
+	top: 40px;
+	font-size: 18px;
+	color: #24262d;
+/*	border: 1px burlywood solid;*/
+}
+
+.itleft .ulimg {
+	width: 4860px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	/*transition: all 0.5s;*/
+	/*CSS3 过渡  所有属性， 0.5s */
+}
+
+.itleft .ulimg li {
+	float: left;
+}
+
+/*--图片下的文字*/
+.divsuo{
+	position: relative;
+	margin: 30px auto;
+	width: 960px;
+	height: 220px;
+/*	border: 1px solid black;*/
+}
+
+.itleft1 .ultext {
+	position: absolute;
+	width: 1000px;
+	height: 210px;
+	left: 5px;
+	bottom: 6px;
+}
+
+.itleft1 .ultext li {
+/*	position: relative;*/
+	float: left;
+	height: 210px;
+/*	line-height: 210px;*/
+	/*文字垂直居中*/
+	width: 156px;
+/*	overflow: hidden;*/
+	cursor: pointer;
+	text-align: center;
+	color: #24262D;
+	position: relative;
+/*	border: 1px solid blue;*/
+}
+/*.itleft .ultext li:hover{
+	color: #f3c258;
+}*/
+.ultext li img{
+/*	position: absolute;
+	top: 0px;
+	left: 0px;
+	transform: scale(-0.3,-0.4);*/
+	width: 100%;
+	height: 100%;
+	
+}
+.ultext .current {
+	transform: scale(1.3,1.4);
+	margin: 0px 5px;
+	z-index: 1;
+}
+/*.ultext li:after {
+	position: absolute;
+	content: '';
+	width: 1px;
+	height: 20px;
+	background: #919296;
+	right: 3px;
+	;
+	bottom: 18px;
+	margin-top: -7px;
+}*/
+
+
+
+.divimg .p1:before {
+	background: url(../img/cont-spr.png) no-repeat;
+	background-size: 208px 126px;
+	position: relative;
+	top: 4px;
+	margin-right: 10px;
+	display: inline-block;
+	content: '';
+	width: 26px;
+	height: 26px;
+	background-position: -41px -95px;
+}
+
+.divimg .p1 {
+	float: left;
+	margin-top: 6px;
+	margin-left: 5px;
+	font-size: 24px;
+	color: #24262d;
+	font-weight: bold;
+}
+
+
+/*4玩法资料菜单及下面的盒子end*/
+
+

@@ -1,0 +1,263 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+body,
+html {
+	min-width: 1000px;
+	width: 100%;
+}
+
+ a{
+	text-decoration: none;
+	color: #000;
+	cursor: pointer;
+}
+
+ul {
+	list-style: none;
+}
+/*装椰子，橘子的div*/
+#frame3{
+	border: 1px black solid;
+	background-color: black;
+	width: 1200px;
+	height: 770px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: -1;
+}
+/*装树，篮子，消息框的的div*/
+#frame4{
+	margin:  0px auto;
+	height: 770px;
+	background-image: linear-gradient(#F0F0F0, #60CAE7);
+}
+
+#tree_one{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	border: 1px blue solid;
+	background-color: blue;
+	width: 200px;
+	height: 200px;
+}
+#gtree1{
+	position: absolute;
+	top:60px;
+	left: 60px;
+	height: 328px;
+	width: 240px;
+/*	border: 2px red dashed;*/
+	transform: scale(1.2,1.1);
+	z-index: 1;
+}
+#grtree1 {
+	position: absolute;
+	left: 405px;
+	top: 190px;
+	width: 160px;
+	height: 200px;
+	transform: scale(1.7);
+}
+#gtree2{
+	position: absolute;
+	top:40px;
+	left: 615px;
+	height: 328px;
+	width: 240px;
+/*	border: 2px red dashed;*/
+	transform: scale(1.2,1.1);
+	z-index: 1;
+}
+#grtree2 {
+	position: absolute;
+	left: 940px;
+	top: 155px;
+	width: 160px;
+	height: 200px;
+	transform: scale(1.6);
+}
+#rtree-1 {
+	position: relative;
+	width: 100%;
+	height: 100%;
+/*	border: 0.5px solid black;*/
+}
+
+#rt-child1 {
+	position: absolute;
+	top: 22px;
+	left: 46px;
+	width: 70px;
+	height: 70px;
+	float: left;
+	background-color: #cccc00;
+	border: 1px solid #cccc00;
+	border-radius: 50%;
+	z-index: 2;
+}
+
+#rt-child2 {
+	position: absolute;
+	top: 49px;
+	left: 24px;
+	width: 75px;
+	height: 75px;
+	float: left;
+	background-color: #cccc00;
+	border: 1px solid #cccc00;
+	border-radius: 50%;
+	z-index: 2;
+}
+
+#rt-child3 {
+	position: absolute;
+	top: 54px;
+	left: 70px;
+	width: 70px;
+	height: 70px;
+	float: left;
+	background-color: #cccc00;
+	border: 1px solid #cccc00;
+	border-radius: 50%;
+	z-index: 2;
+}
+
+#rt-child4 {
+	position: absolute;
+	top: 109px;
+	left: 76px;
+	width: 10px;
+	height: 50px;
+	background-color: #996600;
+	border: 1px solid #996600;
+	z-index: 1;
+}
+#basket{
+	position: absolute;
+	bottom: -40px;
+	left: 330px;
+	height: 345px;
+	width: 510px;
+/*	border: 1px solid #996600;*/
+}
+#yz1{
+	position: absolute;
+	top: 100px;
+	left: 100px;
+	width: 50px;
+	height: 50px;
+	border: 1px black solid;
+	z-index: 2;
+}
+#yz1 img{
+	height: 100%;
+	width: 100%;
+}
+.y1{
+	width: 43px;
+	height: 43px;
+}
+.y2{
+	width: 55px;
+	height: 55px;
+}
+.y3{
+	width: 65px;
+	height: 65px;
+}
+.y4{
+	width: 43px;
+	height: 43px;
+}
+.y5{
+	width: 55px;
+	height: 55px;
+}
+.y6{
+	width: 65px;
+	height: 65px;
+}
+.o1{
+	width: 110px;
+	height: 110px;
+}
+.o2{
+	width: 125px;
+	height: 125px;
+}
+.o3{
+	width: 150px;
+	height: 150px;
+}
+.o4{
+	width: 145px;
+	height: 145px;
+}
+.o5{
+	width: 120px;
+	height: 120px;
+}
+.o6{
+	width: 120px;
+	height: 120px;
+}
+.o7{
+	width: 120px;
+	height: 120px;
+}
+
+#alkbuble1,#talkbuble{
+	width:180px;
+	height: 72px;
+}
+#talkbuble1{
+	position:absolute ;
+	bottom: 170px;
+	left: 110px;
+}
+
+#talkbuble{
+	background: white;
+	position: relative;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+
+}
+#talkbuble:before{
+	content: "";
+	position: absolute;
+	right: 100%;
+	top: 26px;
+	width: 0px;
+	height: 0px;
+	border-top: 13 solid transparent;
+	border-right:26px solid red;
+	border-bottom: 13 solid transparent;
+}
+#talkbuble div{
+	margin-left: 18px;
+	text-align: left;
+	font-size: 22px;
+	line-height: 30px;
+}
+
+#msg-jt{
+	position: absolute;
+	left: -39px;
+	top: 64px;
+	border-style: solid;
+	border-width: 0px 0px 30px 55px;
+	border-color: transparent transparent white transparent;
+	width: 0px;
+	height: 0px;
+	width: 0px;
+	height: 0px;
+	transform: rotate(-45deg);
+	z-index: 0;
+}

@@ -1,0 +1,49 @@
+body {
+	margin: 0px auto;
+/*	border: 1px brown dashed;*/
+	width: 1400px;
+	height: 3000px;
+	background-image: url(../img/bakgrangd.jpg);
+	 background-repeat: repeat-y;
+    background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+}
+#frame1{
+	margin: auto;
+	width: 1200px;
+	height: 100%;
+}
+.head{
+	margin: 10px 12px;
+}
+.head span{
+	/*border-bottom:1px solid #00F;*/
+	font-size: 3em;font-weight: bolder;
+}
+.head .box1{
+	margin: 15px 2px;
+	font-size: 32px;font-weight: 600;
+}
+.head .box2{
+	margin: 15px 2px;
+	margin-bottom: 0px;
+	font-size: 28px;
+	font-weight:lighter;
+	text-align: center;
+}
+.head div p span{
+	font-size: 26px;
+	font-weight:lighter;
+	/*border-bottom:1px solid #00F;*/
+}
+.box3 p{
+	text-align: center;
+	font-size: 18px;
+	font-weight:normal;
+	margin: 2px 0px;
+}
+.head2{
+	font-size: 32px;
+	font-weight:bolder;
+	text-align: left;
+}
